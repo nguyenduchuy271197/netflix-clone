@@ -1,0 +1,41 @@
+.banner {
+  display: flex;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.banner__contents {
+  max-width: 60%;
+}
+
+.banner__title {
+  color: white;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.banner__buttons {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.banner__button {
+  border: none;
+  outline: none;
+  font-size: 20px;
+  font-weight: 600;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 16px 32px;
+  min-width: 150px;
+}
+
+.banner__description {
+  color: #ddd;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 1.5;
+}
